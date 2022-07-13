@@ -120,7 +120,61 @@
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.37.tgz#8e6adc3f2759af52f0e85863dfb0b711ecc5c702"
   integrity sha512-4rSJemR2NQIo9Klm1vabqWjD8rs/ZaJSzMxkMNeJS6lHiUjjUeYFbooN19NgFjztubEKh3WlZUeOLVdbbUWHsw==
 
-csstype@^3.1.0:
+"@zag-js/accordion@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@zag-js/accordion/-/accordion-0.1.9.tgz#1797cb2cd977d16b0c6a738e04a3caa35e486244"
+  integrity sha512-ODgTWWyiI/X2jEqWqYElFbUm4sgWKl9wwYKj6jWtjYo0u4uOC1GSIaE+z7fn6/w3OUNQsGvCqyCAUTjijWGu1A==
+  dependencies:
+    "@zag-js/core" "0.1.7"
+    "@zag-js/dom-utils" "0.1.6"
+    "@zag-js/types" "0.2.1"
+    "@zag-js/utils" "0.1.2"
+
+"@zag-js/core@0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@zag-js/core/-/core-0.1.7.tgz#c7fd6092b19fc32f18df87c18e9f32a8e8e401d7"
+  integrity sha512-BNh7xPlEEKzN9DkbQhJa+/JbU8xLMA78VsT9aH1OBWKSn3F/r9SrV6ukH7eCixEtJT2taiHSPsilSOIriblMvA==
+  dependencies:
+    "@zag-js/store" "0.1.0"
+    "@zag-js/utils" "0.1.2"
+    klona "2.0.5"
+
+"@zag-js/dom-utils@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@zag-js/dom-utils/-/dom-utils-0.1.6.tgz#10ef9027505ecb39e11e0235d705ad879aa0ea90"
+  integrity sha512-qGzKFMTBPD2PNgl5gfKXp8jCi7E4bvHacPjeGreRfZU6nKQ+9L2JXtfnfYXGsummKCI+zIcdjGu87oqpa48Oxw==
+  dependencies:
+    "@zag-js/types" "0.2.1"
+    "@zag-js/utils" "0.1.2"
+
+"@zag-js/store@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@zag-js/store/-/store-0.1.0.tgz#db510404907b48463ce51625c013d75f43e86dd3"
+  integrity sha512-QA5oUhM8Wlom/f7ZbSnzquBDvmUmGueVk0dTQ1CF4BF3IJvQkDt4CSaEiqR3dY/YIRpLIJf/mmAT37AeQ4QBUA==
+  dependencies:
+    proxy-compare "2.2.0"
+
+"@zag-js/types@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@zag-js/types/-/types-0.2.1.tgz#dad3e6bf544ef9370b59f93c745b78488a916188"
+  integrity sha512-v4FEg9ZN5g6h9V5Hz8iGx+xyOLK2hlC0jdtN2JNKvInaAFB/pzUdY3ea+zSv/+hPVaITIhCaOzEkoG3NKnwIBA==
+  dependencies:
+    csstype "3.1.0"
+
+"@zag-js/utils@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@zag-js/utils/-/utils-0.1.2.tgz#cc785c97fb7a96386e6b1c214693b89af3ff6cca"
+  integrity sha512-YLKgHY445GcyPfFlh5Gh5V1lBxJCsQVbBxJeHne67h4IMdFny70FPj3acqmOPi1mZh7bv0j4cfVjVRMNb7nq2Q==
+
+"@zag-js/vue@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@zag-js/vue/-/vue-0.1.9.tgz#27afa0c7df4fcbef4ba5cbc55248cfdfc71d53ce"
+  integrity sha512-3kVA5SgBjsa6StV6TfS3bgtmQI4e0AUuE9I0VSq62Wfz23KcbmOC22X+vaf4cW8itEJ1nWoo4YLMi7uaiKq0LA==
+  dependencies:
+    "@zag-js/core" "0.1.7"
+    "@zag-js/store" "0.1.0"
+
+csstype@3.1.0, csstype@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.0.tgz#4ddcac3718d787cf9df0d1b7d15033925c8f29f2"
   integrity sha512-uX1KG+x9h5hIJsaKR9xHUeUraxf8IODOwq9JLNPq6BwB04a/xgpq3rcx47l5BZu5zBPlgD342tdke3Hom/nJRA==
@@ -280,6 +334,11 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
+klona@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.5.tgz#d166574d90076395d9963aa7a928fabb8d76afbc"
+  integrity sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ==
+
 magic-string@^0.25.7:
   version "0.25.9"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.9.tgz#de7f9faf91ef8a1c91d02c2e5314c8277dbcdd1c"
@@ -310,6 +369,11 @@ postcss@^8.1.10, postcss@^8.4.13, postcss@^8.4.14:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+proxy-compare@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/proxy-compare/-/proxy-compare-2.2.0.tgz#2357330407241b091501644d08a446a4a28e0e15"
+  integrity sha512-hEtMJevUmOByZCTw1NRUVaWWHCGJLO0ogizpey8yX6zMPolDe8YVa+PHgMOTiZuyUkFj+hMKs/1UaM0+ZkuvgA==
 
 resolve@^1.22.0:
   version "1.22.1"

@@ -8,6 +8,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
+		"@zag-js/accordion": "^0.1.9",
+		"@zag-js/vue": "^0.1.9",
 		"vue": "^2.7"
 	},
 	"devDependencies": {
