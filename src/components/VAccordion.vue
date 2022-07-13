@@ -20,7 +20,7 @@ const api = computed(() =>
 	<div ref="ref" v-bind="api.rootProps">
 		<div
 			v-for="item in data"
-			:key="item.id"
+			:key="item.title"
 			v-bind="api.getItemProps({value: item.title})"
 		>
 			<h3>
